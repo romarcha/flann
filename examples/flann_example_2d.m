@@ -10,7 +10,7 @@ axis ([0 1 0 1 0 1]);
 
 %%
 tic;
-build_params.algorithm = 'kdtree';
+build_params.algorithm = 'linear';
 build_params.trees = 1;
 flann_set_distance_type(1);
 %build_params.target_precision = 0.7;
